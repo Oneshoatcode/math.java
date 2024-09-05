@@ -9,16 +9,18 @@ public class basic{
     int lastdig;
     int count=0;
     int sum=0;
-    while(n>0){
+    while(n>0)
+    {
     lastdig=n%10;
     System.out.println(lastdig);
-    //sum of all digit
+          //sum of all digit
     sum+=lastdig;
     if (lastdig%2==0) 
-        count++;
+    count++;
     n=n/10;
     }
     System.out.println("total even digit in this number"+ count);
+        //sum of all digit 
     System.out.println(sum);
     }
 }
